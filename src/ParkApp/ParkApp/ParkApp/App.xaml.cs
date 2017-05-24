@@ -12,12 +12,9 @@ namespace ParkApp
         public App()
         {
             InitializeComponent();
+         
+            MainPage = new NavigationPage(new ParkApp.Telas.MenuInicial()); 
 
-
-            //MainPage = new ParkApp.MainPage();
-
-
-            MainPage = new ParkApp.TelasSergio.Login();
         }
 
         protected override void OnStart()
