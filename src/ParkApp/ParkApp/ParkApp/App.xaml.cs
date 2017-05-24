@@ -13,7 +13,9 @@ namespace ParkApp
         {
             InitializeComponent();
 
-            MainPage = new ParkApp.MainPage();
+            //MainPage = new ParkApp.MainPage();
+            MainPage = new ParkApp.Autetication.RememberPassword();
+
         }
 
         protected override void OnStart()
