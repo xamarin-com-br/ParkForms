@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ParkApp.TelasSergio.Login">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source=""/>
+            <Entry Text="Nome de Usuario"
+                   TextColor="Gray"/>
+            <Entry Text="Senha"
+                   TextColor="Gray"/>
+            <Button Text="Login with E-App"
+                    BackgroundColor="Orange"
+                    TextColor="White"/>
+            <Button Text="Login with Facebook"
+                    BackgroundColor="#1fb6ff"
+                    TextColor="White"/>
+            <Button Text="Login with Twitter"
+                    BackgroundColor="SteelBlue"
+                    TextColor="White"/>
+            <Button Text="Criar Conta"
+                    BackgroundColor="Transparent"
+                      TextColor="Orange"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

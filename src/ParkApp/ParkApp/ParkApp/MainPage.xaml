@@ -4,8 +4,7 @@
              xmlns:local="clr-namespace:ParkApp"
              x:Class="ParkApp.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
+    <Label Text="Welcome to Xamarin Forms!"
+           VerticalOptions="Center"
            HorizontalOptions="Center" />
-
 </ContentPage>
