@@ -38,6 +38,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Autentication\RememberSenha.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -51,6 +52,12 @@
     <Compile Include="TelasSergio\Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
+
+    <Compile Include="Telas\CadastroDeVagas.cs" />
+    <Compile Include="Telas\CadastroUsuario.cs" />
+    <Compile Include="Telas\Login.cs" />
+    <Compile Include="Telas\MenuInicial.cs" />
+
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MainPage.xaml">
@@ -79,11 +86,16 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+
   <ItemGroup>
+
+    <Folder Include="Autetication\" />
+
     <EmbeddedResource Include="TelasSergio\Login.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="TelasSergio\CadastroUsuario.xaml">
