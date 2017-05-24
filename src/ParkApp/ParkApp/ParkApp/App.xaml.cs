@@ -13,7 +13,7 @@ namespace ParkApp
         {
             InitializeComponent();
 
-            MainPage = new ParkApp.TelasSergio.CadastroVaga();
+            MainPage = new ParkApp.MasterDetail.MasterDetailPage1();
         }
 
         protected override void OnStart()
