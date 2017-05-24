@@ -42,6 +42,12 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TelasSergio\CadastroUsuario.xaml.cs">
+      <DependentUpon>CadastroUsuario.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TelasSergio\CadastroVaga.xaml.cs">
+      <DependentUpon>CadastroVaga.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TelasSergio\Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
@@ -75,6 +81,18 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="TelasSergio\Login.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TelasSergio\CadastroUsuario.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TelasSergio\CadastroVaga.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ParkApp.TelasSergio.CadastroUsuario">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Placeholder="Nome"/>
+            <Entry Placeholder="E-mail"/>
+            <Entry Placeholder="Senha"/>
+            <Switch></Switch>
+            <Label Text="Li e aceito os termos de uso.">
+            </Label>
+            <Button Text="CADASTRAR"
+                    BackgroundColor="Orange"
+                    TextColor="White">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
