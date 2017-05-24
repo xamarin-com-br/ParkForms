@@ -13,7 +13,10 @@ namespace ParkApp
         {
             InitializeComponent();
 
-            MainPage = new ParkApp.MainPage();
+            //MainPage = new ParkApp.MainPage();
+
+            //MainPage = new ParkApp.Autentication.RememberSenha();
+            MainPage = new ParkApp.Telas.MenuInicial();
         }
 
         protected override void OnStart()

@@ -38,10 +38,15 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Autentication\RememberSenha.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Telas\CadastroDeVagas.cs" />
+    <Compile Include="Telas\CadastroUsuario.cs" />
+    <Compile Include="Telas\Login.cs" />
+    <Compile Include="Telas\MenuInicial.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MainPage.xaml">
