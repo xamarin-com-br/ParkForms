@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ParkApp.Telas;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +13,14 @@ namespace ParkApp
         public App()
         {
             InitializeComponent();
-            MainPage = new ParkApp.MasterDetail.MasterDetailPage1();
+
+            //MainPage = new ParkApp.MainPage();
+
+            //MainPage = new ParkApp.Autentication.RememberSenha();
+            //MainPage = new ParkApp.Telas.MenuInicial();
+            //MainPage = new NavigationPage(new MenuInicial());
+            MainPage = new MasterMenu();
+
         }
 
         protected override void OnStart()

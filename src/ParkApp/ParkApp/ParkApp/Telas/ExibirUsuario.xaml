@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ParkApp.Telas.ExibirUsuario">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <Label Text="Confirme os seus dados." />
+            <Entry Text="{Binding Nome}"/>
+            <Entry Text="{Binding Login}" />
+            <Entry Text="{Binding Senha}" />
+            <Button Text="CANCELAR"
+                    BackgroundColor="Orange"
+                    TextColor="White">
+            </Button>
+            <Button Text="CONFIRMAR"
+                    BackgroundColor="Orange"
+                    TextColor="White">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
