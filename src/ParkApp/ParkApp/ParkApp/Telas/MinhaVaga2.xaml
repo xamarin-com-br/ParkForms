@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ParkApp.Telas.MinhaVaga2">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to Xamarin Forms!" />
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label Text="Top Left" Grid.Row="0" Grid.Column="0" BackgroundColor="Red" Grid.RowSpan="3" />
+
+                <Button Text="Adicionar" Grid.Row="0" Grid.Column="1" Clicked="Button_Clicked"   ></Button>
+                <!--<Label Text="center Left" Grid.Row="0" Grid.Column="1" BackgroundColor="Aquamarine"/>-->
+                <Label Text="center Right" Grid.Row="0" Grid.Column="2"  BackgroundColor="Beige" />
+               
+                <Label Text="Top Left" Grid.Row="1" Grid.Column="1" BackgroundColor="Yellow" Grid.ColumnSpan="2" />
+
+                <Label Text="Top Left" Grid.Row="2" Grid.Column="1" BackgroundColor="BlanchedAlmond"  />
+                <Label Text="Top Left" Grid.Row="2" Grid.Column="2" BackgroundColor="Chartreuse"  />
+            </Grid>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

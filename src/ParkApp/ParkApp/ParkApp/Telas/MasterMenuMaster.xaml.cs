@@ -35,9 +35,15 @@ namespace ParkApp.Telas
                 {
                     new MasterMenuMenuItem { Id = 0, Title = "Home",TargetType = new MenuInicial().GetType(),Foto ="icon.png" },
                     new MasterMenuMenuItem { Id = 1, Title = "Login",TargetType = new Login().GetType(),Foto="contacts.png"},
-                    new MasterMenuMenuItem { Id = 2, Title ="Usuário",TargetType = new CadastroUsuarioXAML().GetType() },
-                    new MasterMenuMenuItem { Id = 3, Title = "Vagas",TargetType = new CadastroDeVagas().GetType() },
                     
+                    new MasterMenuMenuItem { Id = 2, Title ="Usuário",TargetType = new CadastroUsuarioXAML().GetType() },
+                    new MasterMenuMenuItem { Id = 3, Title ="Lista Users",TargetType = new ListaUsuario().GetType() },
+                    new MasterMenuMenuItem { Id = 4, Title ="Lista Vagas",TargetType = new ListaDeVagas().GetType() },
+                    new MasterMenuMenuItem { Id = 5, Title = "Vagas",TargetType = new CadastroDeVagas().GetType() },
+                    new MasterMenuMenuItem { Id = 6, Title = "Load file",TargetType = new Loadtxt().GetType() },
+                    new MasterMenuMenuItem { Id = 7, Title = "MinhasVagas",TargetType = new MinhaVaga2().GetType() },
+                              new MasterMenuMenuItem { Id = 8, Title = "ScrollView",TargetType = new TermoDeAdesao().GetType() }
+
                 });
             }
 

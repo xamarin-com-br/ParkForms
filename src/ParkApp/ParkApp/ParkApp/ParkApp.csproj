@@ -43,6 +43,7 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\Usuario.cs" />
+    <Compile Include="Model\Vaga.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Telas\CadastroDeVagas.cs" />
     <Compile Include="Telas\CadastroUsuario.cs" />
@@ -52,6 +53,14 @@
     <Compile Include="Telas\ExibirUsuario.xaml.cs">
       <DependentUpon>ExibirUsuario.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Telas\GerenciarTxt.cs" />
+    <Compile Include="Telas\ListaDeVagas.xaml.cs">
+      <DependentUpon>ListaDeVagas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\ListaUsuario.xaml.cs">
+      <DependentUpon>ListaUsuario.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Loadtxt.cs" />
     <Compile Include="Telas\Login.cs" />
     <Compile Include="Telas\MasterMenu.xaml.cs">
       <DependentUpon>MasterMenu.xaml</DependentUpon>
@@ -64,6 +73,12 @@
     </Compile>
     <Compile Include="Telas\MasterMenuMenuItem.cs" />
     <Compile Include="Telas\MenuInicial.cs" />
+    <Compile Include="Telas\MinhaVaga2.xaml.cs">
+      <DependentUpon>MinhaVaga2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\TermoDeAdesao.xaml.cs">
+      <DependentUpon>TermoDeAdesao.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Telas\UsuarioDetail.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -122,6 +137,35 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Telas\ExibirUsuario.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Telas\ListaUsuario.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Telas\ListaDeVagas.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="listaRuas.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Telas\MinhaVaga2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Telas\TermoDeAdesao.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

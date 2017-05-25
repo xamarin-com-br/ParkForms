@@ -1,0 +1,25 @@
+Rua A
+Rua B
+Rua C
+Content – gets or sets the view to display in the ScrollView.
+ContentSize – read-only, gets the size of the content, which has a width and height component. This is a bindable property
+Orientation – This is a ScrollOrientation, which is an enumeration that can be set to Horizontal, Vertical, or Both.
+ScrollX – read-only, gets the current scroll position in the X dimension.
+ScrollY – read-only, gets the current scroll position in the Y dimension
+When scrolling to a particular element, the ScrollToPosition enumeration specifes where in the view the element will appear:
+
+Center – scrolls the element to the center of the visible portion of the view.
+End – scrolls the element to the end of the visible portion of the view.
+MakeVisible – scrolls the element so that it is visible within the view.
+Start – scrolls the element to the start of the visible portion of the view.
+The IsAnimated property specifies how the view will be scrolled. When set to true, a smooth animation will be used, rather than instantly moving the content into view
+ScrollView exposes just one event, Scrolled. Scrolled is raised when the view has finished scrolling. The event handler for Scrolled takes ScrolledEventArgs, which has the ScrollX and ScrollY properties. The following demonstrates how to update a label with the current scroll position of a ScrollView
+
+Scroll views are controls that are used to to display and manipulate content that doesn't fit within the screen. They allow the user to zoom in and out of the content using pinch gestures and to drag the display area around to view different parts of the content
+
+Scroll views are controls that are used to to display and manipulate content that doesn't fit within the screen. They allow the user to zoom in and out of the content using pinch gestures and to drag the display area around to view different parts of the content
+Scroll views are controls that are used to to display and manipulate content that doesn't fit within the screen. They allow the user to zoom in and out of the content using pinch gestures and to drag the display area around to view different parts of the content
+Scroll views are controls that are used to to display and manipulate content that doesn't fit within the screen. They allow the user to zoom in and out of the content using pinch gestures and to drag the display area around to view different parts of the content
+Scroll views are controls that are used to to display and manipulate content that doesn't fit within the screen. They allow the user to zoom in and out of the content using pinch gestures and to drag the display area around to view different parts of the content
+Scroll views are controls that are used to to display and manipulate content that doesn't fit within the screen. They allow the user to zoom in and out of the content using pinch gestures and to drag the display area around to view different parts of the content
+Scroll views are controls that are used to to display and manipulate content that doesn't fit within the screen. They allow the user to zoom in and out of the content using pinch gestures and to drag the display area around to view different parts of the content
