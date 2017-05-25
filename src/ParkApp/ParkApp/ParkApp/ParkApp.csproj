@@ -76,6 +76,12 @@
     <Compile Include="TelasSergio\MinhasVagas.xaml.cs">
       <DependentUpon>MinhasVagas.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TelasSergio\ModalEstacionado.xaml.cs">
+      <DependentUpon>ModalEstacionado.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TelasSergio\TermosDeAdesao.xaml.cs">
+      <DependentUpon>TermosDeAdesao.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Telas\CadastroDeVagas.cs" />
     <Compile Include="Telas\CadastroUsuario.cs" />
     <Compile Include="Telas\Login.cs" />
@@ -167,6 +173,18 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="TelasSergio\MinhasVagasGrid.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TelasSergio\ModalEstacionado.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TelasSergio\TermosDeAdesao.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
