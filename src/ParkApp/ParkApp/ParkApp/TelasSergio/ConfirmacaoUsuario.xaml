@@ -5,9 +5,9 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Confirme os seus dados." />
-            <Label Text="{Binding Nome}"/>
-            <Label Text="{Binding Login}" />
-            <Label Text="{Binding Senha}" />
+            <Entry Text="{Binding Nome}"/>
+            <Entry Text="{Binding Login}" />
+            <Entry Text="{Binding Senha}" />
             <Button Text="CANCELAR"
                     BackgroundColor="Orange"
                     TextColor="White">

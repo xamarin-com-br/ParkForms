@@ -12,10 +12,10 @@ namespace ParkApp.TelasSergio
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ConfirmacaoUsuario : ContentPage
     {
-        public ConfirmacaoUsuario(Models.Usuario usuario)
+        public ConfirmacaoUsuario()
         {
             InitializeComponent();
-            this.BindingContext = usuario;
+            this.BindingContext = CadastroUsuario.usuario;
         }
     }
 }

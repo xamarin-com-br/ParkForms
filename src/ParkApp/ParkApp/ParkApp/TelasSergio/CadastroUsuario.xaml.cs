@@ -12,13 +12,12 @@ namespace ParkApp.TelasSergio
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CadastroUsuario : ContentPage
     {
+        public static Models.Usuario usuario;
+
         public CadastroUsuario()
         {
             InitializeComponent();
-            Models.Usuario usuario = new Models.Usuario();
-            usuario.Nome = "";
-            usuario.Login = "";
-            usuario.Senha = "";
+            usuario = new Models.Usuario();
             this.BindingContext = usuario;
             Button btCadastrar = this.FindByName<Button>("btCadastrar");
             btCadastrar.Clicked += new EventHandler(btCadastrar_Click);
@@ -26,7 +25,7 @@ namespace ParkApp.TelasSergio
 
         async void btCadastrar_Click(object sender, EventArgs e)
         {
-           await Navigation.PushAsync(new TelasSergio.ConfirmacaoUsuario(this.BindingContext as Models.Usuario));
+           await Navigation.PushAsync(new TelasSergio.ConfirmacaoUsuario());
         }
     }
 }
