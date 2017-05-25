@@ -31,11 +31,9 @@
       <ListView.ItemTemplate>
         <DataTemplate>
           <ViewCell>
-<<<<<<< HEAD
-            <StackLayout Padding="15,10" Orientation="Vertical" HorizontalOptions="FillAndExpand">
-=======
+
             <StackLayout Padding="15,10" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
->>>>>>> 735620a0587a97056556bc1ce214faf5485aedf5
+
                     <Image Source="{Binding Foto}"/>
                      <Label VerticalOptions="FillAndExpand" 
                     VerticalTextAlignment="Center" 
