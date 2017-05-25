@@ -1,4 +1,4 @@
-﻿using ParkApp.Model;
+﻿using ParkApp.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -57,7 +57,7 @@ namespace ParkApp.Telas
         async void usuarioSave(object sender, EventArgs e)
         {
 
-            await Navigation.PushAsync(new UsuarioDetail(this.BindingContext as Usuario));
+            //await Navigation.PushAsync(new UsuarioDetail(this.BindingContext as Usuario));
         }
     }
 }

@@ -70,6 +70,9 @@
     <Compile Include="TelasSergio\Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TelasSergio\MinhasVagasGrid.xaml.cs">
+      <DependentUpon>MinhasVagasGrid.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TelasSergio\MinhasVagas.xaml.cs">
       <DependentUpon>MinhasVagas.xaml</DependentUpon>
     </Compile>
@@ -158,6 +161,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="TelasSergio\ComprarECoins.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TelasSergio\MinhasVagasGrid.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

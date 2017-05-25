@@ -19,7 +19,7 @@ namespace ParkApp
             //MainPage = new ParkApp.Autentication.RememberSenha();
             //MainPage = new ParkApp.Telas.MenuInicial();
             //MainPage = new NavigationPage(new MenuInicial());
-            MainPage = new MasterMenu();
+            MainPage = new ParkApp.MasterDetail.MasterDetailPage1();
 
         }
 
