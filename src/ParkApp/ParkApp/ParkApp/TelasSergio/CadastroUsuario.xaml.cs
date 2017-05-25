@@ -15,6 +15,18 @@ namespace ParkApp.TelasSergio
         public CadastroUsuario()
         {
             InitializeComponent();
+            Models.Usuario usuario = new Models.Usuario();
+            usuario.Nome = "";
+            usuario.Login = "";
+            usuario.Senha = "";
+            this.BindingContext = usuario;
+            Button btCadastrar = this.FindByName<Button>("btCadastrar");
+            btCadastrar.Clicked += new EventHandler(btCadastrar_Click);
+        }
+
+        async void btCadastrar_Click(object sender, EventArgs e)
+        {
+           await Navigation.PushAsync(new TelasSergio.ConfirmacaoUsuario(this.BindingContext as Models.Usuario));
         }
     }
 }

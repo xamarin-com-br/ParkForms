@@ -16,6 +16,8 @@ namespace ParkApp.MasterDetail
         public int Id { get; set; }
         public string Title { get; set; }
 
+        public string Foto { get; set; }
+
         public Type TargetType { get; set; }
     }
 }

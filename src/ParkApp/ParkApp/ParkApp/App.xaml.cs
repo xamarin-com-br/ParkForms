@@ -12,7 +12,6 @@ namespace ParkApp
         public App()
         {
             InitializeComponent();
-
             MainPage = new ParkApp.MasterDetail.MasterDetailPage1();
         }
 
