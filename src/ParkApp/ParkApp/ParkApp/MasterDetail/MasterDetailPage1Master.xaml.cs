@@ -33,10 +33,10 @@ namespace ParkApp.MasterDetail
             {
                 MenuItems = new ObservableCollection<MasterDetailPage1MenuItem>(new[]
                 {
-                    new MasterDetailPage1MenuItem { Id = 0, Title = "COMPRAR E-COINS", TargetType = new TelasSergio.CadastroUsuario().GetType() },
-                    new MasterDetailPage1MenuItem { Id = 1, Title = "VAGAS" },
-                    new MasterDetailPage1MenuItem { Id = 2, Title = "MINHAS VAGAS" },
-                    new MasterDetailPage1MenuItem { Id = 3, Title = "TERMOS DE USO" },
+                    new MasterDetailPage1MenuItem { Id = 0, Title = "COMPRAR E-COINS", TargetType = new TelasSergio.ComprarECoins().GetType()},
+                    new MasterDetailPage1MenuItem { Id = 1, Title = "VAGAS"},
+                    new MasterDetailPage1MenuItem { Id = 2, Title = "MINHAS VAGAS", TargetType = new TelasSergio.MinhasVagas().GetType()  },
+                    new MasterDetailPage1MenuItem { Id = 3, Title = "TERMOS DE USO",  TargetType = new TelasSergio.CadastroUsuario().GetType() },
                     new MasterDetailPage1MenuItem { Id = 4, Title = "SAIR" },
                 });
             }
