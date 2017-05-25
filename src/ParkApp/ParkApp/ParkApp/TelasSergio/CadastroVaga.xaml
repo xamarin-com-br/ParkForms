@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ParkApp.TelasSergio.CadastroVaga">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Placeholder="Endereço"></Entry>
+            <Entry Placeholder="Fotos"></Entry>
+            <Entry Placeholder="Fotos do comprovante de residencia"></Entry>
+            <Label Text="O comprovante de residência deve estar no nome do usuário cadastrado no e-app."></Label>
+            <Button Text="AVANÇAR" BackgroundColor="Orange" TextColor="White"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
