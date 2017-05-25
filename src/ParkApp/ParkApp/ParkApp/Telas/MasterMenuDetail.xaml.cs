@@ -2,23 +2,23 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace ParkApp.Telas
 {
-    public class MenuInicial : ContentPage
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class MasterMenuDetail : ContentPage
     {
         Button TelaLogin, TelaUsuario, TelaCadastroVagas;
-
-        
-
-        public MenuInicial()
+        public MasterMenuDetail()
         {
+            InitializeComponent();
 
-
-
-            TelaLogin = new Button {
+            TelaLogin = new Button
+            {
                 Text = "Login"
 
             };
@@ -32,11 +32,11 @@ namespace ParkApp.Telas
                 Text = "Vagas +"
 
             };
-            
-            TelaLogin.Clicked +=abrirLogin;
-             TelaUsuario.Clicked += async (sender, args) => await Navigation.PushAsync(new CadastroUsuario());
+
+            TelaLogin.Clicked += abrirLogin;
+            TelaUsuario.Clicked += async (sender, args) => await Navigation.PushAsync(new CadastroUsuario());
             TelaCadastroVagas.Clicked += async (sender, args) => await Navigation.PushAsync(new CadastroDeVagas());
-            
+
             Content = new StackLayout
             {
                 Children = {
@@ -45,19 +45,15 @@ namespace ParkApp.Telas
                     TelaCadastroVagas
                 }
             };
-
-
-
-            
         }
 
-         async void abrirLogin(object sender, EventArgs e)
-        {       
-           await  Navigation.PushAsync(new Login () );            
+        async void abrirLogin(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Login());
         }
         void abrirCadastroUsuario(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new CadastroUsuarioXAML());
+            Navigation.PushAsync(new CadastroUsuario());
         }
         void abrirCadstroVagas(object sender, EventArgs e)
         {
