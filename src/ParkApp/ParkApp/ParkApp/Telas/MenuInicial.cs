@@ -57,7 +57,7 @@ namespace ParkApp.Telas
         }
         void abrirCadastroUsuario(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new CadastroUsuarioXAML());
+            //Navigation.PushAsync(new CadastroUsuarioXAML());
         }
         void abrirCadstroVagas(object sender, EventArgs e)
         {
