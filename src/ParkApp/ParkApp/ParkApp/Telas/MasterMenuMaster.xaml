@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ParkApp.Telas.MasterMenuMaster"
@@ -31,9 +31,13 @@
       <ListView.ItemTemplate>
         <DataTemplate>
           <ViewCell>
+<<<<<<< HEAD
             <StackLayout Padding="15,10" Orientation="Vertical" HorizontalOptions="FillAndExpand">
+=======
+            <StackLayout Padding="15,10" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+>>>>>>> 735620a0587a97056556bc1ce214faf5485aedf5
                     <Image Source="{Binding Foto}"/>
-                            <Label VerticalOptions="FillAndExpand" 
+                     <Label VerticalOptions="FillAndExpand" 
                     VerticalTextAlignment="Center" 
                     Text="{Binding Title}" 
                     FontSize="24"/>

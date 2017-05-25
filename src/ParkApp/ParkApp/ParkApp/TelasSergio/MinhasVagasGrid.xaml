@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ParkApp.TelasSergio.MinhasVagasGrid">
+    <ContentPage.Content>
+        <StackLayout Padding="15">
+            <ListView x:Name="listView" ItemSelected="listView_ItemSelected" RowHeight="130">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout HorizontalOptions="StartAndExpand" Orientation="Horizontal" BackgroundColor="#F0F1F5" Margin="5" Padding="6">
+                                <Grid ColumnSpacing="3" RowSpacing="0">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Image Source="{Binding Foto}" Grid.Row="0" Grid.Column="0" Grid.RowSpan="3">
+                                    </Image>
+                                    <Label Text="{Binding Nome}" FontSize="Medium" Grid.Row="0" Grid.Column="1"></Label>
+                                    <Label Text="{Binding Endereco}"  FontSize="Small" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"></Label>
+                                    <StackLayout Grid.Row="0" Grid.Column="2">
+                                        <Label Text="{Binding Status}" VerticalOptions="Center" FontSize="Small" BackgroundColor="Transparent" TextColor="Gray"></Label>
+                                    </StackLayout>
+                                    <Button Text="VER COMENTARIOS" FontSize="Small" BackgroundColor="Transparent" TextColor="Orange" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2"></Button>
+                                </Grid>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button x:Name="btCadastrar" Clicked="btCadastrar_Clicked" Text="CADASTRAR" TextColor="White" BackgroundColor="Orange"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ParkApp.TelasSergio.TermosDeAdesao">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Leia com atenção!" />
+            <ScrollView VerticalOptions="FillAndExpand">
+                <StackLayout>
+                <Label x:Name="lbTermo" Text="sdlkfjksdjfls"></Label>
+                <Button x:Name="btAceitar" Text="ACEITAR" BackgroundColor="Orange" TextColor="White" Clicked="btAceitar_Clicked"></Button>
+                <Button x:Name="btRejeitar" Text="REJEITAR" BackgroundColor="Orange" TextColor="White" Clicked="btRejeitar_Clicked"></Button>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

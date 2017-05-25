@@ -42,17 +42,31 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Model\Usuario.cs" />
     <Compile Include="Model\Vaga.cs" />
+=======
+    <Compile Include="MasterDetail\MasterDetailPage1.xaml.cs">
+      <DependentUpon>MasterDetailPage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDetail\MasterDetailPage1Detail.xaml.cs">
+      <DependentUpon>MasterDetailPage1Detail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDetail\MasterDetailPage1Master.xaml.cs">
+      <DependentUpon>MasterDetailPage1Master.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDetail\MasterDetailPage1MenuItem.cs" />
+    <Compile Include="Models\MinhaVaga.cs" />
+    <Compile Include="Models\Usuario.cs" />
+>>>>>>> 735620a0587a97056556bc1ce214faf5485aedf5
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Telas\CadastroDeVagas.cs" />
-    <Compile Include="Telas\CadastroUsuario.cs" />
-    <Compile Include="Telas\CadastroUsuarioXAML.xaml.cs">
-      <DependentUpon>CadastroUsuarioXAML.xaml</DependentUpon>
+    <Compile Include="TelasSergio\CadastroUsuario.xaml.cs">
+      <DependentUpon>CadastroUsuario.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Telas\ExibirUsuario.xaml.cs">
-      <DependentUpon>ExibirUsuario.xaml</DependentUpon>
+    <Compile Include="TelasSergio\CadastroVaga.xaml.cs">
+      <DependentUpon>CadastroVaga.xaml</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Telas\GerenciarTxt.cs" />
     <Compile Include="Telas\ListaDeVagas.xaml.cs">
       <DependentUpon>ListaDeVagas.xaml</DependentUpon>
@@ -64,15 +78,34 @@
     <Compile Include="Telas\Login.cs" />
     <Compile Include="Telas\MasterMenu.xaml.cs">
       <DependentUpon>MasterMenu.xaml</DependentUpon>
+=======
+    <Compile Include="TelasSergio\ComprarECoins.xaml.cs">
+      <DependentUpon>ComprarECoins.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Telas\MasterMenuDetail.xaml.cs">
-      <DependentUpon>MasterMenuDetail.xaml</DependentUpon>
+    <Compile Include="TelasSergio\ConfirmacaoUsuario.xaml.cs">
+      <DependentUpon>ConfirmacaoUsuario.xaml</DependentUpon>
+>>>>>>> 735620a0587a97056556bc1ce214faf5485aedf5
     </Compile>
-    <Compile Include="Telas\MasterMenuMaster.xaml.cs">
-      <DependentUpon>MasterMenuMaster.xaml</DependentUpon>
+    <Compile Include="TelasSergio\Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Telas\MasterMenuMenuItem.cs" />
+    <Compile Include="TelasSergio\MinhasVagasGrid.xaml.cs">
+      <DependentUpon>MinhasVagasGrid.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TelasSergio\MinhasVagas.xaml.cs">
+      <DependentUpon>MinhasVagas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TelasSergio\ModalEstacionado.xaml.cs">
+      <DependentUpon>ModalEstacionado.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TelasSergio\TermosDeAdesao.xaml.cs">
+      <DependentUpon>TermosDeAdesao.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\CadastroDeVagas.cs" />
+    <Compile Include="Telas\CadastroUsuario.cs" />
+    <Compile Include="Telas\Login.cs" />
     <Compile Include="Telas\MenuInicial.cs" />
+<<<<<<< HEAD
     <Compile Include="Telas\MinhaVaga2.xaml.cs">
       <DependentUpon>MinhaVaga2.xaml</DependentUpon>
     </Compile>
@@ -80,6 +113,8 @@
       <DependentUpon>TermoDeAdesao.xaml</DependentUpon>
     </Compile>
     <Compile Include="Telas\UsuarioDetail.cs" />
+=======
+>>>>>>> 735620a0587a97056556bc1ce214faf5485aedf5
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MainPage.xaml">
@@ -92,9 +127,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Mono.Android">
-      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v7.1\Mono.Android.dll</HintPath>
-    </Reference>
     <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xamarin.Forms.2.3.4.247\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.Core.dll</HintPath>
       <Private>True</Private>
@@ -112,31 +144,76 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Telas\MasterMenu.xaml">
+    <EmbeddedResource Include="TelasSergio\Login.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Telas\MasterMenuMaster.xaml">
+    <EmbeddedResource Include="TelasSergio\CadastroUsuario.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Telas\MasterMenuDetail.xaml">
+    <EmbeddedResource Include="TelasSergio\CadastroVaga.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Telas\CadastroUsuarioXAML.xaml">
+    <EmbeddedResource Include="MasterDetail\MasterDetailPage1.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Telas\ExibirUsuario.xaml">
+    <EmbeddedResource Include="MasterDetail\MasterDetailPage1Master.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MasterDetail\MasterDetailPage1Detail.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Autetication\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TelasSergio\ConfirmacaoUsuario.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TelasSergio\MinhasVagas.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TelasSergio\ComprarECoins.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TelasSergio\MinhasVagasGrid.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TelasSergio\ModalEstacionado.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TelasSergio\TermosDeAdesao.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

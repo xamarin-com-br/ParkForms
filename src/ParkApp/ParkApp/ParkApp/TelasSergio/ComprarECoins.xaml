@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ParkApp.TelasSergio.ComprarECoins">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <Label Text="Comprando e-coins você se torna livre!" VerticalOptions="Center" />
+            <StackLayout BackgroundColor="Silver" Margin="5">
+                <Label Text="Saldo atual: 47 e-coins"></Label>
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Label Text="Digite quantos e-coins você quer comprar"></Label>
+                <Entry x:Name="txtValor" TextChanged="txtValor_TextChanged"></Entry>
+                <StackLayout Orientation="Horizontal">
+                    <Label x:Name="lbValorTotal" Text="0.00" TextColor="Green"></Label>
+                    <Label x:Name="lbValorUnitario" Text="0,41" TextColor="Gray"></Label>
+                    <Button x:Name="btComprar" Clicked="btComprar_Clicked" Text="COMPRAR" BackgroundColor="Green" TextColor="White"/>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
