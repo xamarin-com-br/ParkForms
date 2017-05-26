@@ -8,10 +8,17 @@ using System.Threading.Tasks;
 namespace ParkAppTestMatrix
 {
     [TestFixture]
-    public class TestClass
+    public class UsuarioTest
     {
         [Test]
-        public void TestMethod()
+        public void UsuarioSalvo()
+        {
+            // TODO: Add your test code here
+            Assert.Pass("Your first passing test");
+        }
+
+        [Test]
+        public void UsuarioNãoSalva()
         {
             // TODO: Add your test code here
             Assert.Pass("Your first passing test");
