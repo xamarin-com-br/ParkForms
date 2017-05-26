@@ -17,7 +17,7 @@
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v7.0</TargetFrameworkVersion>
     <AndroidStoreUncompressedFileExtensions />
     <MandroidI18n />
     <JavaMaximumHeapSize />
@@ -134,7 +134,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ParkApp\ParkApp.csproj">
-      <Project>{424d2d57-61b7-4fd7-bfe5-1dc72d31e6cf}</Project>
+      <Project>{0C786E4A-3BDA-4987-A7B7-7DCF2CF97876}</Project>
       <Name>ParkApp</Name>
     </ProjectReference>
   </ItemGroup>
