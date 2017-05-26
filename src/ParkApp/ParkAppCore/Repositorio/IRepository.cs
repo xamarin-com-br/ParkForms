@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+
 namespace ParkAppCore.Repositorio
 {
     public interface IRepository<T>
