@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using ParkApp.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,9 @@ namespace ParkAppTestMatrix
         [Test]
         public void UsuarioSalvo()
         {
+            Usuario novoUsuario = new Usuario();           
+
+
             // TODO: Add your test code here
             Assert.Pass("Your first passing test");
         }
