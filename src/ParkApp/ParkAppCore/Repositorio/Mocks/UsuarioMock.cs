@@ -16,6 +16,11 @@ namespace ParkAppCore.Repositorio.Mocks
             throw new NotImplementedException();
         }
 
+        public Usuario Find(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool Insert(Usuario obj)
         {
             throw new NotImplementedException();

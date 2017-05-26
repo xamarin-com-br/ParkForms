@@ -12,6 +12,11 @@ namespace ParkAppCore.Repositorio.Mocks
             throw new NotImplementedException();
         }
 
+        public Garagem Find(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool Insert(Garagem obj)
         {
             throw new NotImplementedException();

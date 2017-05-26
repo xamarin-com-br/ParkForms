@@ -9,5 +9,6 @@ namespace ParkAppCore.Repositorio
         bool Remove(T obj);
         bool Update(T obj);
         IList<T> Find();
+        T Find(int id);
     }
 }
