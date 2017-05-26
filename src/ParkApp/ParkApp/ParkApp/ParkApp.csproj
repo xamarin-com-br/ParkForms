@@ -74,16 +74,11 @@
       <DependentUpon>ListaUsuario.xaml</DependentUpon>
     </Compile>
     <Compile Include="Telas\Loadtxt.cs" />
-    <Compile Include="Telas\Login.cs" />
-    <Compile Include="Telas\MasterMenu.xaml.cs">
-      <DependentUpon>MasterMenu.xaml</DependentUpon>
-
     <Compile Include="TelasSergio\ComprarECoins.xaml.cs">
       <DependentUpon>ComprarECoins.xaml</DependentUpon>
     </Compile>
     <Compile Include="TelasSergio\ConfirmacaoUsuario.xaml.cs">
       <DependentUpon>ConfirmacaoUsuario.xaml</DependentUpon>
->>>>>>> 735620a0587a97056556bc1ce214faf5485aedf5
     </Compile>
     <Compile Include="TelasSergio\Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
@@ -102,9 +97,7 @@
     </Compile>
     <Compile Include="Telas\CadastroDeVagas.cs" />
     <Compile Include="Telas\CadastroUsuario.cs" />
-    <Compile Include="Telas\Login.cs" />
     <Compile Include="Telas\MenuInicial.cs" />
-<<<<<<< HEAD
     <Compile Include="Telas\MinhaVaga2.xaml.cs">
       <DependentUpon>MinhaVaga2.xaml</DependentUpon>
     </Compile>
@@ -113,6 +106,7 @@
     </Compile>
     <Compile Include="Telas\UsuarioDetail.cs" />
 
+    <Compile Include="Telas\Login.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MainPage.xaml">
