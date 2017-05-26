@@ -13,8 +13,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)Models\Usuario.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\Vaga.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\MinhaVaga.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Repositorio\IRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Models\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Repositorio\" />
   </ItemGroup>
 </Project>
