@@ -15,5 +15,10 @@ namespace ParkApp.Models
         public int Estrelas { get; set; }
         public string Foto { get; set; }
         public decimal Ecoins { get; set; }
+
+        public bool Autenticar(string v1, string v2)
+        {
+            return true;
+        }
     }
 }
