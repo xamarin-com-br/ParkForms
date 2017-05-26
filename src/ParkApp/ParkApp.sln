@@ -9,7 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkApp", "ParkApp\ParkApp\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkApp.iOS", "ParkApp\ParkApp.iOS\ParkApp.iOS.csproj", "{D80C2FD3-060E-41A6-8A59-1A1D75294778}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ParkAppCore", "ParkAppCore\ParkAppCore.shproj", "{87DF919A-6058-485F-8B01-6046DCB8C4BE}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ParkAppCore\ParkAppCore.projitems*{87df919a-6058-485f-8b01-6046dcb8c4be}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
 		Ad-Hoc|iPhone = Ad-Hoc|iPhone
