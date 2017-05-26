@@ -10,8 +10,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Models\Aluguel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Garagem.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)TestClas.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\Usuario.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Models\Vaga.cs" />
   </ItemGroup>
 </Project>
