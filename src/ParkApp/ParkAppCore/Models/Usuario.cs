@@ -16,9 +16,9 @@ namespace ParkApp.Models
         public string Foto { get; set; }
         public decimal Ecoins { get; set; }
 
-        public bool Autenticar(string v1, string v2)
+        public bool Autenticar(string login, string senha)
         {
-            return true;
+            return (login.Equals(this.Login) && senha.Equals(this.Senha));
         }
     }
 }
