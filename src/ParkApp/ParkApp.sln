@@ -19,6 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCoreTest02", "AppCoreTes
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ParkAppCore\ParkAppCore.projitems*{68f2aff2-9769-41bb-a64a-73ab799fc68f}*SharedItemsImports = 4
 		ParkAppCore\ParkAppCore.projitems*{87df919a-6058-485f-8b01-6046dcb8c4be}*SharedItemsImports = 13
 
 	EndGlobalSection
