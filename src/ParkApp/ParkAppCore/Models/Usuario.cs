@@ -8,8 +8,12 @@ namespace ParkApp.Models
 {
     public class Usuario
     {
+        public int ID { get; set; }
         public string Nome { get; set; }
         public string Login { get; set; }
         public string Senha { get; set; }
+        public int Estrelas { get; set; }
+        public string Foto { get; set; }
+        public decimal Ecoins { get; set; }
     }
 }

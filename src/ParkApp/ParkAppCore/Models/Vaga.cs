@@ -10,8 +10,10 @@ namespace ParkApp.Model
     {
         public string Endereco { get; set; }
         public string Longitude { get; set; }
-
         public string Latitude{ get; set; }
-
+        public int Estrelas { get; set; }
+        public int UsuarioID { get; set; }
+        public string Foto { get; set; }
+        public bool IsDisponivel { get; set; }
     }
 }
