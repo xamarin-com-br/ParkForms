@@ -6,6 +6,7 @@ namespace ParkAppCore.Models
 {
     public class Garagem
     {
+        public int ID{ get; set; }
         public string Endereco { get; set; }
         public string Longitude { get; set; }
         public string Latitude { get; set; }

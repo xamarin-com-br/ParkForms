@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -41,10 +41,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Test.cs" />
+    <Compile Include="TestGaragemMock.cs" />
     <Compile Include="TesteUsuarioMOQ.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ParkAppTestMatrix\ParkAppTestMatrix.csproj">
+      <Project>{8EDF4429-251A-416D-BB68-93F227191BCF}</Project>
+      <Name>ParkAppTestMatrix</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="..\ParkAppCore\ParkAppCore.projitems" Label="Shared" Condition="Exists('..\ParkAppCore\ParkAppCore.projitems')" />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
