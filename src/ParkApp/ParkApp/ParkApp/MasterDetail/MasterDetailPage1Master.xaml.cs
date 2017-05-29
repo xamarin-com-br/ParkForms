@@ -38,6 +38,7 @@ namespace ParkApp.MasterDetail
                     new MasterDetailPage1MenuItem { Id = 2, Title = "MINHAS VAGAS", TargetType = new TelasSergio.MinhasVagasGrid().GetType()  },
                     new MasterDetailPage1MenuItem { Id = 3, Title = "TERMOS DE USO",  TargetType = new TelasSergio.TermosDeAdesao().GetType() },
                     new MasterDetailPage1MenuItem { Id = 4, Title = "SAIR", TargetType = new TelasSergio.CadastroUsuario().GetType()},
+                    new MasterDetailPage1MenuItem { Id = 5, Title = "webService", TargetType = new Telas.TelaMatrixTesteWebsercice().GetType() }
                 });
             }
 

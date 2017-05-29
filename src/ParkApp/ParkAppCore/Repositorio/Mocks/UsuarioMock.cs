@@ -16,6 +16,11 @@ namespace ParkAppCore.Repositorio.Mocks
             throw new NotImplementedException();
         }
 
+        public Usuario FindByID(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool Insert(Usuario obj)
         {
             throw new NotImplementedException();
@@ -30,5 +35,7 @@ namespace ParkAppCore.Repositorio.Mocks
         {
             throw new NotImplementedException();
         }
+
+
     }
 }

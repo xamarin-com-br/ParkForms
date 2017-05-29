@@ -12,5 +12,10 @@ namespace ParkAppCore.Models
         public int VagaID { get; set; }
         public decimal Ecoins { get; set; }
         public decimal EcoinsUtilizados { get; set; }
+
+        public bool GetVagaID(int idvaga)
+        {
+            return (idvaga == this.VagaID);
+        }
     }
 }

@@ -15,5 +15,11 @@ namespace ParkApp.Models
         public int Estrelas { get; set; }
         public string Foto { get; set; }
         public decimal Ecoins { get; set; }
+
+
+        public bool loginValido(string nome, string senha)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

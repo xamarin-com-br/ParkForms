@@ -15,6 +15,11 @@ namespace ParkAppCore.Repositorio.RepoWebService
             throw new NotImplementedException();
         }
 
+        public Usuario FindByID(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool Insert(Usuario obj)
         {
             throw new NotImplementedException();

@@ -11,18 +11,15 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Models\Aluguel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\Garagem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Repositorio\Mocks\AluguelMock.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)TestClas.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\Usuario.cs" />
-
     <Compile Include="$(MSBuildThisFileDirectory)Repositorio\IRepository.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Repositorio\Mocks\UsuarioMock.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Repositorio\RepoSQLite\UsuarioSQLite.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Repositorio\RepoWebService\UsuarioWebservice.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)Models\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Repositorio\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Repositorio\Mocks\" />
     <Folder Include="$(MSBuildThisFileDirectory)Repositorio\RepoSQLite\" />
     <Folder Include="$(MSBuildThisFileDirectory)Repositorio\RepoWebService\" />
   </ItemGroup>

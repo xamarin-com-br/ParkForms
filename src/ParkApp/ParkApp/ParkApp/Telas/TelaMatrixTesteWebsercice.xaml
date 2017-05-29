@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ParkApp.Telas.TelaMatrixTesteWebsercice">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="lbTexto" Text="Bem vindo ao webservice!" />
+            
+            <Button x:Name="btnTexto" Clicked="btnTexto_Clicked"  Text="exibir"></Button>
+
+            <Button x:Name="btnLista" Clicked="btnLista_Clicked"  Text="exibir"></Button>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
